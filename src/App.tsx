@@ -30,15 +30,16 @@ const App = () => {
     setSearchField(searchFieldString);
   }
 
+  console.log('render');
 
-      return(
-        <div className='App'>
-          <h1 className='app-title'>Deny Sim</h1>
-          <SearchBox onChangeHandler={onSearchChange} 
-          className='monsters-search-box' placeholder='search monster'/>
-          <CardList monsters={filteredMonsters} />
-        </div>
-      )
+  return(
+    <div className='App'>
+      <h1 className='app-title'>Deny Sim</h1>
+      <SearchBox onChangeHandler={onSearchChange} 
+      className='monsters-search-box' placeholder='search monster'/>
+      <CardList monsters={filteredMonsters} />
+    </div>
+  )
 
 }
 
