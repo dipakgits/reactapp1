@@ -34,7 +34,7 @@ const App = () => {
 
   return(
     <div className='App'>
-      <h1 className='app-title'>Deny Sim</h1>
+      <h1 className='app-title'>Dipak Balghare</h1>
       <SearchBox onChangeHandler={onSearchChange} 
       className='monsters-search-box' placeholder='search monster'/>
       <CardList monsters={filteredMonsters} />
